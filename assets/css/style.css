@@ -1,0 +1,280 @@
+.bgrounds {
+	text-align: center;
+	margin: auto;
+
+
+}
+
+h2 {
+	font-size: 100px;
+	color: white;
+	text-align: center;
+
+}
+
+p {
+	color: white;
+	font-size: 50px;
+	width: 100%;
+}
+h3 {
+	font-size: 40px;
+	color: white;
+}
+.ins {
+	width: 80%;
+	float: left;
+	text-align: center;
+	margin-left: 250px;
+	margin-top: 100px;
+}
+#main {
+	
+	height: 2500px;
+	width: 100%;
+	background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.95)),url('../images/background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border:1px solid green;
+	text-align: center;
+
+}
+
+
+.player1card{
+	border-radius: 20px;
+	height: 100%;
+	width: 25%;
+	float: left;
+	border: 1px solid red;
+	margin-left: 50px;
+	background-color: black;
+
+
+}
+
+.player2card {
+	height: 100%;
+	width: 25%;
+	float: left;
+	margin-left: 50px;
+	background-color: black;
+	border-radius: 20px;
+	border: 1px solid red;
+}
+
+
+
+.battle {
+	width: 40%;
+	height: 900px;
+	float: left;
+	border:1px solid red;
+	text-align: center;
+	margin-left: 50px;
+	background-color: black;
+}
+
+.box {
+	height: 250px;
+	width: 150px;
+	border: 1px solid blue;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+
+}
+
+.deck1 {
+	border: 5px solid black;
+	height: 250px;
+	width: 150px;
+	display: inline-block;
+	margin: auto;
+	margin: 30px;
+
+
+}
+
+.deckcontent {
+
+}
+.deck2 {
+	border:5px solid black;
+	height: 250px;
+	width: 150px;
+	margin: auto;
+	display: inline-block;
+	margin-top: 20px;
+	margin: 30px;
+}
+
+#p1ucard1 {
+
+}
+
+.top1 {
+	display: none;
+}
+.left1 {
+	display: none;
+}
+.right1 {
+	display: none;
+}
+.bottom1 {
+	display: none;
+}
+
+.top2 {
+	display: none;
+}
+.left2 {
+	display: none;
+}
+.right2 {
+	display: none;
+}
+.bottom2{
+	display: none;
+}
+.cardtext {
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+}
+
+
+#p2content1 {
+	background: url('../images/deck2/p2card1.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: darkred;
+	height: 100%;
+	width:100%;
+}
+#p2content2 {
+	background-image: url('../images/deck2/p2card2.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: darkred;
+	height: 100%;
+	width:100%;
+}
+#p2content3 {
+	background-image: url('../images/deck2/p2card3.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: darkred;
+	height: 100%;
+	width:100%;
+}
+
+#p2content4 {
+	background-image: url('../images/deck2/p2card4.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: darkred;
+	background-position: center;
+	height: 100%;
+	width:100%;
+}
+#p2content5 {
+	background-image: url('../images/deck2/p2card5.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: darkred;
+	background-position: center;
+	height: 100%;
+	width:100%;
+}
+
+#p1content1 {
+	background: url('../images/deck1/p1card1.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: darkblue;
+	height: 100%;
+	width:100%;
+}
+#p1content2 {
+	background-image: url('../images/deck1/p1card2.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: darkblue;
+	height: 100%;
+	width:100%;
+}
+#p1content3 {
+	background-image: url('../images/deck1/p1card3.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: darkblue;
+	height: 100%;
+	width:100%;
+}
+
+#p1content4 {
+	background-image: url('../images/deck1/p1card4.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: darkblue;
+	background-position: center;
+	height: 100%;
+	width:100%;
+}
+#p1content5 {
+	background-image: url('../images/deck1/p1card5.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: darkblue;
+	background-position: center;
+	height: 100%;
+	width:100%;
+}
+
+.control {
+	text-align: center;
+	padding: 50px;
+	color: white;
+}
+
+button {
+	height: 100px;
+	width: 500px;
+	font-size: 50px;
+	border-radius: 5px;
+	background-color: black;
+	color: white;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+button:hover {
+	background-color: white;
+	color: black;
+
+}
+#divs {
+	font-size: 100px;
+}
+#blue {
+	color: blue;
+	font-size: 100px;
+	padding: 20px;
+}
+#red{
+	color: red;
+	font-size: 100px;
+	padding: 20px;
+}
